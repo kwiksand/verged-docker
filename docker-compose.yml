@@ -1,0 +1,8 @@
+---
+daemon:
+  image: verged:latest
+  ports:
+   - "20102:20102"
+   - "21102:21102"
+  volumes:
+   - /media/crypto/verge:/home/verge/.VERGE
